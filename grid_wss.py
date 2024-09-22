@@ -361,8 +361,8 @@ class SpotGrid(threading.Thread):
 if __name__ == "__main__":
     # 使用传入的参数创建SpotGrid实例
     grid = SpotGrid(
-        api_key="lO5JHu2Js4EcyIIYdca5VkA9GDpC7iGudo1b6/yGABk=",
-        secret="hYEdYmgWHGWWIn2nsyX5A8gVNxxQ6B8afGWkvaI1v6U=",
+        api_key="",
+        secret="",
         symbol="SOL_USDC",
         max_price=130, # 网格上限
         min_price=120, # 网格下限
